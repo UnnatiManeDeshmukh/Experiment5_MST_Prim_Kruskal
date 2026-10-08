@@ -5,7 +5,6 @@
 
 To implement the **Minimum Cost Spanning Tree (MST)** of a given undirected graph using **Prim's Algorithm** and **Kruskal's Algorithm** and compare their results.
 
----
 
 ## Objective
 
@@ -16,7 +15,6 @@ To implement the **Minimum Cost Spanning Tree (MST)** of a given undirected grap
 * To compare the results of Prim's and Kruskal's Algorithms.
 * To analyze the time and space complexity.
 
----
 
 ## Theory
 
@@ -26,7 +24,7 @@ A spanning tree contains:
 
 ```text
 Number of Edges = Number of Vertices - 1
-````
+
 
 Two commonly used algorithms for finding MST are:
 

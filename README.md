@@ -245,4 +245,3 @@ The results of Prim's and Kruskal's Algorithms were compared. Both algorithms pr
 
 Thus, both algorithms can be effectively used to find the **Minimum Spanning Tree** of a weighted undirected graph.
 
-```

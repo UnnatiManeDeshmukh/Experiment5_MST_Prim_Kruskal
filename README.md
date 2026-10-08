@@ -1,10 +1,10 @@
-````markdown
 # Experiment No. 5 — Minimum Cost Spanning Tree Using Prim's and Kruskal's Algorithms
 
 ## Aim
 
 To implement the **Minimum Cost Spanning Tree (MST)** of a given undirected graph using **Prim's Algorithm** and **Kruskal's Algorithm** and compare their results.
 
+---
 
 ## Objective
 
@@ -15,6 +15,7 @@ To implement the **Minimum Cost Spanning Tree (MST)** of a given undirected grap
 * To compare the results of Prim's and Kruskal's Algorithms.
 * To analyze the time and space complexity.
 
+---
 
 ## Theory
 
@@ -24,7 +25,7 @@ A spanning tree contains:
 
 ```text
 Number of Edges = Number of Vertices - 1
-
+```
 
 Two commonly used algorithms for finding MST are:
 
@@ -80,7 +81,7 @@ The program uses **Prim's Algorithm** to connect multiple computers using minimu
 
 ### Output
 
-![Computer Network Prim Output](OutPut/App1_Computer_Network_Prim_Output.png)
+![Computer Network Prim Output](OutPut/App1_Computer_Network_Prim_Output.JPG)
 
 ---
 
@@ -131,7 +132,7 @@ The program implements both **Prim's Algorithm** and **Kruskal's Algorithm** to 
 
 ### Output
 
-![Electric Power Grid Comparison Output](OutPut/App3_Electric_Power_Grid_Comparison_Output.png)
+![Electric Power Grid Comparison Output](OutPut/App3_Electric_Power_Grid_Comparison_Output.JPG)
 
 ---
 
@@ -152,7 +153,7 @@ The program implements both **Prim's Algorithm** and **Kruskal's Algorithm** to 
 
 # Time Complexity
 
-### Prim's Algorithm
+## Prim's Algorithm
 
 The adjacency matrix implementation used in this experiment has:
 
@@ -160,7 +161,7 @@ The adjacency matrix implementation used in this experiment has:
 Time Complexity = O(V²)
 ```
 
-### Kruskal's Algorithm
+## Kruskal's Algorithm
 
 The edges are sorted using Bubble Sort in this implementation.
 
@@ -181,13 +182,13 @@ E = Number of Edges
 
 # Space Complexity
 
-### Prim's Algorithm
+## Prim's Algorithm
 
 ```text
 Space Complexity = O(V²)
 ```
 
-### Kruskal's Algorithm
+## Kruskal's Algorithm
 
 ```text
 Space Complexity = O(E + V)
@@ -244,4 +245,3 @@ Three real-world applications were implemented:
 The results of Prim's and Kruskal's Algorithms were compared. Both algorithms produced the **same minimum total cost** for the given graph.
 
 Thus, both algorithms can be effectively used to find the **Minimum Spanning Tree** of a weighted undirected graph.
-
